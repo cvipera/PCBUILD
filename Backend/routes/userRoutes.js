@@ -10,4 +10,7 @@ router.post('/register', userController.registerUser);
 // Update userType (admin only)
 router.put('/updateUserType', adminMiddleware, userController.updateUserType);
 
+// Login route
+router.post('/login', userController.loginUser);
+
 module.exports = router;
