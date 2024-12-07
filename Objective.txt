@@ -107,7 +107,6 @@
 //              Color : any string
 //              Price : any float
 //              class : Low, Mid, High
-
 //TODO : Storage
 //      Properties - Name, Brand, Series, Model, Type, Capacity, Interface, Form Factor, RPM, Cache, Price, class
 //              Name : any string
@@ -138,7 +137,6 @@
 //              Color : any string
 //              Price : any float
 //              class : Low, Mid, High, Ultra
-
 //TODO : PSU
 //      Properties - Name, Brand, Series, Model, Wattage, Modular, Efficiency, Fans, Price, class
 //              Name : any string
