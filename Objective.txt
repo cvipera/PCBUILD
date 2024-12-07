@@ -1,0 +1,240 @@
+//TODO : Home
+// in - index.html
+// goal - first page of the site that the user sees
+// goal - to provide a brief overview of the site
+// goal - to login or register
+// prompt - Welcome to Custom Cvipera PC Building Site
+// prompt - Login
+// prompt - Register
+
+
+//TODO : Login
+// in - login.html
+// goal - to allow the user to login
+// goal - to allow user to create a new account
+// goal - to allow the user to reset their password
+// prompt - Welcome to Custom Cvipera PC Building Site
+// prompt - Login
+// prompt - Register
+// prompt - Forgot Password
+
+
+//TODO : Components
+// in - components.html
+// goal - to display all the components
+// goal - to allow the user to filter and sort the components
+// goal - to allow the user to add, edit, or delete components if the user is a constructor
+// prompt - Welcome to Custom Cvipera PC Building Site
+// prompt - Components
+// prompt - Filter
+// prompt - Sort
+// prompt - Add Component if the user is a constructor
+// prompt - Edit Component if the user is a constructor
+// prompt - Delete Component if the user is a constructor
+
+//TODO : CPU
+//      Properties - Name, Brand, Series, Model, Tier, Socket, Cores, Threads, Base Clock, Boost Clock, TDP, Price, Integrated Graphics, class
+//              Name : any string
+//              Brand : AMD, Intel, Nvidia
+//              Series : any string
+//              Model : any string
+//              Tier : any integer
+//              Socket : any string
+//              Cores : any integer
+//              Threads : any integer
+//              Base Clock : any float
+//              Boost Clock : any float
+//              TDP : any integer
+//              Price : any float
+//              Integrated Graphics : Yes, No
+//              class : Low, Mid, High, Ultra
+//TODO : Cooling
+//      Properties - Name, Brand, Series, Model, Type, Size, Fan RPM, Noise Level, Power Connector, Color, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Type : Air, Liquid
+//              Size : any integer
+//              Fan RPM : any integer
+//              Noise Level : any integer
+//              Power Connector : any string
+//              Color : any string
+//              Price : any float
+//              class : Low, Mid, High
+//TODO : Motherboard
+//      Properties - Name, Brand, Series, Model, Socket, Chipset, Form Factor, Memory Slots, Memory Type, Memory Speed, Max Memory,
+//      Properties - PCI Express x16, PCI Express x8, PCI Express x4, PCI Express x1, SATA 6 Gb/s, M.2, USB 3.2 Gen 2, USB 3.2 Gen 1, USB 2.0, LAN, Audio, Video Ports, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Socket : any string
+//              Chipset : any string
+//              Form Factor : ATX, Micro ATX, Mini ITX
+//              Memory Slots : any integer
+//              Memory Type : any string
+//              Memory Speed : any integer
+//              Max Memory : any integer
+//              PCI Express x16 : any integer
+//              PCI Express x8 : any integer
+//              PCI Express x4 : any integer
+//              PCI Express x1 : any integer
+//              SATA 6 Gb/s : any integer
+//              M.2 : any integer
+//              USB 3.2 Gen 2 : any integer
+//              USB 3.2 Gen 1 : any integer
+//              USB 2.0 : any integer
+//              LAN : any integer
+//              Audio : any integer
+//              Video Ports : any integer
+//              Price : any float
+//              class : Low, Mid, High
+//TODO : RAM
+//      Properties - Name, Brand, Series, Model, Capacity, Type, Speed, CAS Latency, Voltage, ECC, Buffered, Heat Spreader, Color, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Capacity : any integer
+//              Type : DDR3, DDR4, DDR5
+//              Speed : any integer
+//              CAS Latency : any integer
+//              Voltage : any integer
+//              ECC : Yes, No
+//              Buffered : Yes, No
+//              Heat Spreader : Yes, No
+//              Color : any string
+//              Price : any float
+//              class : Low, Mid, High
+
+//TODO : Storage
+//      Properties - Name, Brand, Series, Model, Type, Capacity, Interface, Form Factor, RPM, Cache, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Type : HDD, SSD, NVMe
+//              Capacity : any integer
+//              Interface : SATA, M.2, PCIe
+//              Form Factor : 2.5", 3.5", M.2 2280, M.2 22110
+//              RPM : any integer
+//              Cache : any integer
+//              Price : any float
+//              class : Low, Mid, High
+//TODO : GPU
+//      Properties - Name, Brand, Series, Model, Interface, Chipset, Memory, Core Clock, Boost Clock, TDP, Length, Color, Price, class
+//              Name : any string
+//              Brand : Nvidia, AMD, Intel
+//              Series : any string
+//              Model : any string
+//              Interface : PCI Express 3.0, PCI Express 4.0
+//              Chipset : any string
+//              Memory : any integer
+//              Core Clock : any float
+//              Boost Clock : any float
+//              TDP : any integer
+//              Length : any integer
+//              Color : any string
+//              Price : any float
+//              class : Low, Mid, High, Ultra
+
+//TODO : PSU
+//      Properties - Name, Brand, Series, Model, Wattage, Modular, Efficiency, Fans, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Wattage : any integer
+//              Modular : Full, Semi, No
+//              Efficiency : 80 Plus Bronze, 80 Plus Silver, 80 Plus Gold, 80 Plus Platinum, 80 Plus Titanium
+//              Fans : 0, 1, 2
+//              Price : any float
+//              class : Low, Mid, High
+//TODO : Case
+//      Properties - Name, Brand, Series, Model, Type, Color, Side Panel, Power Supply, External 5.25" Bays, Internal 3.5" Bays, Internal 2.5" Bays, Expansion Slots, Front Ports, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Type : Full Tower, Mid Tower, Mini Tower
+//              Color : any string
+//              Side Panel : Tempered Glass, Acrylic, Steel
+//              Power Supply : Bottom, Top
+//              External 5.25" Bays : any integer
+//              Internal 3.5" Bays : any integer
+//              Internal 2.5" Bays : any integer
+//              Expansion Slots : any integer
+//              Front Ports : any string
+//              Price : any float
+//              class : Low, Mid, High
+//TODO : Fans
+//      Properties - Name, Brand, Series, Model, Type, Size, RGB, Fan RPM, Noise Level, Power Connector, Color, Price, class
+//              Name : any string
+//              Brand : any string
+//              Series : any string
+//              Model : any string
+//              Type : Normal, Reverse
+//              Size : 120, 140, 200
+//              RGB : No, Rgb, Argb
+//              Fan RPM : any integer
+//              Noise Level : any integer
+//              Power Connector : any string
+//              Color : any string
+//              Price : any float
+//              class : Low, Mid, High
+
+//TODO : Add Component
+
+//TODO : Edit Component
+//TODO : Delete Component
+
+
+//TODO : Build
+// in - build.html
+// goal - to allow the user to create a new build
+// goal - to allow the user to edit an existing build
+// goal - to allow the user to delete an existing build
+// goal - to allow the user to save a build
+// goal - to allow the user to load a build
+// -- Everyone
+// prompt - Welcome to Custom Cvipera PC Building Site
+// prompt - Build
+
+// -- User Only
+// prompt - Edit Build
+// prompt - Save Build
+// prompt - Load Build
+// prompt - Delete Build
+// prompt - Share Build
+
+// -- Admin Only
+// prompt - Add Component
+// prompt - Edit Component
+// prompt - Delete Component
+
+//TODO : Compatibility Check
+//TODO : Price Check
+//TODO : Performance Check
+//TODO : Power Check
+//TODO : Filter
+//TODO : Sort
+//TODO : Sort Ordering
+
+//TODO : Save
+//TODO : Load
+//TODO : Share
+
+//TODO : User Profile
+//TODO : User Settings
+//TODO : User Builds
+//TODO : User Favorites Components
+
+//TODO : Admin Panel
+//TODO : Admin Users
+
+//TODO : Contact
+//TODO : About
+//TODO : FAQ
+//TODO : Terms of Service
+//TODO : Privacy Policy
