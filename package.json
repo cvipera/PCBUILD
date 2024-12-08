@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cvipera/PCBUILD#readme",
   "dependencies": {
-    "parcel": "^2.0.0",
+    "parcel": "^2.13.2",
     "sass": "^1.32.8"
   },
   "devDependencies": {
