@@ -1,0 +1,20 @@
+CPU
+--- Intel ---
+Gen 9000 - > 14000
+i3 -> i9
+
+Intel i9-9900K
+Intel i9-9900KF
+Intel i9-9900
+Intel i9-9900F
+Intel i9-9900T
+Intel i7-9700K
+
+Intel i5-9600K
+Intel i3-9100
+
+
+
+
+
+--- AMD ---

@@ -1,3 +1,51 @@
+// data :
+// website run on vercel
+// manage cookies
+
+
+
+//-------------------------------TimeLine-----------------------------------
+
+
+
+
+
+// Html . Css . Js
+// 1. build the home page
+// 2. build the login page
+// 3. build the build page
+// 4. build the components pages
+// 5. build the user profile page
+// 6. build the admin panel page
+// 7. build the contact page
+
+
+// database
+// 0. Read how to build a database
+// 1. build the user database
+// 2. build the component database
+// 3. build the build database
+// 4. build the compatibility database
+// 5. build the power database
+// 6. build the user profile database
+// 7. build the admin database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------TODO------------------------------------
+
+
 //TODO : Home
 // in - index.html
 // goal - first page of the site that the user sees
@@ -212,8 +260,6 @@
 // prompt - Delete Component
 
 //TODO : Compatibility Check
-//TODO : Price Check
-//TODO : Performance Check
 //TODO : Power Check
 //TODO : Filter
 //TODO : Sort
