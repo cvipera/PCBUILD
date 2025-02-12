@@ -10,6 +10,7 @@
  */
 /* 2D TRANSITIONS */
 /* Grow */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -306,7 +307,7 @@
 }
 
 /* Sink */
-.hvr-sink, .button-common {
+.hvr-sink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -319,9 +320,9 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-sink:hover, .button-common:hover, .hvr-sink:focus, .button-common:focus, .hvr-sink:active, .button-common:active {
-  -webkit-transform: translateY(8px);
-  transform: translateY(8px);
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+  -webkit-transform: translateY(13px);
+  transform: translateY(13px);
 }
 
 /* Bob */
@@ -1201,7 +1202,7 @@
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #2098D1;
+  background-color: #08343c;
   color: white;
 }
 
@@ -1239,7 +1240,7 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #2098D1;
+  background-color: #08343c;
   background-color: rgb(32, 152, 209);
   color: white;
 }
@@ -1265,7 +1266,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -1306,7 +1307,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -1347,7 +1348,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -1388,7 +1389,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1429,7 +1430,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -1472,7 +1473,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -1515,7 +1516,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -1558,7 +1559,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1589,7 +1590,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1603,7 +1604,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -1631,7 +1632,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1645,7 +1646,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #e1e1e1;
+  background: #1a699e;
   border-radius: 100%;
   -webkit-transform: scale(2);
   transform: scale(2);
@@ -1672,7 +1673,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1686,7 +1687,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
@@ -1712,7 +1713,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1726,7 +1727,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -1752,7 +1753,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1766,7 +1767,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
@@ -1794,7 +1795,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1808,7 +1809,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
@@ -1836,7 +1837,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1850,7 +1851,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transform-origin: 50%;
@@ -1878,7 +1879,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #e1e1e1;
+  background: #1a699e;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1892,7 +1893,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098D1;
+  background: #08343c;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;
@@ -1914,7 +1915,7 @@
 
 /* BORDER TRANSITIONS */
 /* Border Fade */
-.hvr-border-fade, .button-common {
+.hvr-border-fade {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -1924,10 +1925,10 @@
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+  box-shadow: inset 0 0 0 4px #1a699e, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
 }
-.hvr-border-fade:hover, .button-common:hover, .hvr-border-fade:focus, .button-common:focus, .hvr-border-fade:active, .button-common:active {
-  box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 4px #08343c, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 /* Hollow */
@@ -1941,7 +1942,7 @@
   transition-duration: 0.3s;
   -webkit-transition-property: background;
   transition-property: background;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+  box-shadow: inset 0 0 0 4px #1a699e, 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
   background: none;
@@ -2004,7 +2005,7 @@
 .hvr-ripple-out:before {
   content: "";
   position: absolute;
-  border: #e1e1e1 solid 6px;
+  border: #1a699e solid 6px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2047,7 +2048,7 @@
 .hvr-ripple-in:before {
   content: "";
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #1a699e solid 4px;
   top: -12px;
   right: -12px;
   bottom: -12px;
@@ -2073,7 +2074,7 @@
 .hvr-outline-out:before {
   content: "";
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #1a699e solid 4px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2103,7 +2104,7 @@
   pointer-events: none;
   content: "";
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #1a699e solid 4px;
   top: -16px;
   right: -16px;
   bottom: -16px;
@@ -2155,7 +2156,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -2185,7 +2186,7 @@
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2216,7 +2217,7 @@
   left: 100%;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: left;
   transition-property: left;
@@ -2246,7 +2247,7 @@
   left: 0;
   right: 100%;
   top: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -2276,7 +2277,7 @@
   left: 51%;
   right: 51%;
   top: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2307,7 +2308,7 @@
   left: 100%;
   right: 0;
   top: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transition-property: left;
   transition-property: left;
@@ -2338,7 +2339,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  border-color: #2098D1;
+  border-color: #08343c;
   border-style: solid;
   border-width: 0;
   -webkit-transition-property: border-width;
@@ -2371,7 +2372,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -2404,7 +2405,7 @@
   left: 0;
   right: 0;
   top: 0;
-  background: #2098D1;
+  background: #08343c;
   height: 4px;
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
@@ -2434,7 +2435,7 @@
   transition-property: box-shadow;
 }
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
 /* Shadow */
@@ -2484,7 +2485,7 @@
   transition-property: box-shadow;
 }
 .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.6);
 }
 
 /* Box Shadow Inset */
@@ -2498,10 +2499,10 @@
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.6), 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.6), 0 0 1px rgba(0, 0, 0, 0); /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 /* Float Shadow */
@@ -2572,13 +2573,13 @@
 }
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
@@ -2607,7 +2608,7 @@
   left: calc(50% - 10px);
   top: 0;
   border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #e1e1e1 transparent;
+  border-color: transparent transparent #1a699e transparent;
 }
 .hvr-bubble-top:hover:before, .hvr-bubble-top:focus:before, .hvr-bubble-top:active:before {
   -webkit-transform: translateY(-10px);
@@ -2636,7 +2637,7 @@
   top: calc(50% - 10px);
   right: 0;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #e1e1e1;
+  border-color: transparent transparent transparent #1a699e;
 }
 .hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {
   -webkit-transform: translateX(10px);
@@ -2655,7 +2656,7 @@
 .hvr-bubble-bottom:before {
   pointer-events: none;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   content: "";
   border-style: solid;
   -webkit-transition-duration: 0.3s;
@@ -2665,11 +2666,12 @@
   left: calc(50% - 10px);
   bottom: 0;
   border-width: 10px 10px 0 10px;
-  border-color: #e1e1e1 transparent transparent transparent;
+  border-color: #1a699e transparent transparent transparent;
 }
 .hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
+  z-index: 1;
 }
 
 /* Bubble Left */
@@ -2694,7 +2696,7 @@
   top: calc(50% - 10px);
   left: 0;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #e1e1e1 transparent transparent;
+  border-color: transparent #1a699e transparent transparent;
 }
 .hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
   -webkit-transform: translateX(-10px);
@@ -2722,7 +2724,7 @@
   top: 0;
   border-style: solid;
   border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #e1e1e1 transparent;
+  border-color: transparent transparent #1a699e transparent;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -2758,7 +2760,7 @@
   content: "";
   border-style: solid;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #e1e1e1;
+  border-color: transparent transparent transparent #1a699e;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -2794,7 +2796,7 @@
   bottom: 0;
   border-style: solid;
   border-width: 10px 10px 0 10px;
-  border-color: #e1e1e1 transparent transparent transparent;
+  border-color: #1a699e transparent transparent transparent;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -2830,7 +2832,7 @@
   left: 0;
   border-style: solid;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #e1e1e1 transparent transparent;
+  border-color: transparent #1a699e transparent transparent;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -4123,6 +4125,48 @@
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.site-name {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-common {
+  background: linear-gradient(to right, #6591ac, #155b81); /* Gradient background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  z-index: 0;
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to line up correctly */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+.button-common:active {
+  background-color: #0a6fb5; /* Even darker  when clicked */
 }
 
 /*# sourceMappingURL=styles.css.map */

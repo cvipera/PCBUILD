@@ -1,9 +1,49 @@
 @import "styles/styles.css";
 @import "hover.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.button-common {
+body{
+  font-family: 'Roboto', sans-serif;
 
-  @extend .hvr-border-fade;
-  @extend .hvr-sink;
+}
+.top-bar {
+  display: flex;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
 }
 
+.site-name {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-common {
+  background: linear-gradient( to right, #6591ac , #155b81); /* Gradient background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  z-index: 0;
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to line up correctly */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+
+
+
+
+  &:active {
+    background-color: #0a6fb5; /* Even darker  when clicked */
+  }
+}

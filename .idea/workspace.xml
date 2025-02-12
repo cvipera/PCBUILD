@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b83fc210-83ba-4459-b520-cd210f99add6" name="Changes" comment="packadgeq">
-      <change afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+    <list default="true" id="b83fc210-83ba-4459-b520-cd210f99add6" name="Changes" comment="scss hover add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_options.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/effects/2d-transitions/_sink.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/effects/2d-transitions/_sink.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/effects/speech-bubbles/_bubble-bottom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/effects/speech-bubbles/_bubble-bottom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +129,7 @@
       <workItem from="1733608726452" duration="2655000" />
       <workItem from="1733665324537" duration="4815000" />
       <workItem from="1739353145510" duration="106000" />
-      <workItem from="1739353253744" duration="4366000" />
+      <workItem from="1739353253744" duration="9264000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -166,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733683807291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="scss hover add">
+      <option name="closed" value="true" />
+      <created>1739357738253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739357738253</updated>
+    </task>
+    <task id="LOCAL-00007" summary="scss hover add">
+      <option name="closed" value="true" />
+      <created>1739361813312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739361813312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +210,7 @@
     <MESSAGE value="page add" />
     <MESSAGE value="packadge" />
     <MESSAGE value="packadgeq" />
-    <option name="LAST_COMMIT_MESSAGE" value="packadgeq" />
+    <MESSAGE value="scss hover add" />
+    <option name="LAST_COMMIT_MESSAGE" value="scss hover add" />
   </component>
 </project>

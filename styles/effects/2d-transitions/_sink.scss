@@ -8,6 +8,6 @@
 	&:hover,
 	&:focus,
 	&:active {
-		@include prefixed(transform, translateY(8px));
+		@include prefixed(transform, translateY(13px));
 	}
 }
