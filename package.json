@@ -2,27 +2,17 @@
   "name": "pcbuild",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "CPU.js",
   "scripts": {
-    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cvipera/PCBUILD.git"
   },
-    "author": "Cvipera",
-    "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cvipera/PCBUILD/issues"
-  },
-  "homepage": "https://github.com/cvipera/PCBUILD#readme",
-  "dependencies": {
-    "parcel": "^2.13.2",
-    "sass": "^1.32.8"
-  },
+  "private": true,
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0"
-  },
-  "private": true
+    "browser-sync": "^3.0.3",
+    "sass": "^1.43.4"
+  }
 }

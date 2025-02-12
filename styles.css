@@ -1,0 +1,23 @@
+/*  need :  Button, Slider, text input, fiter tab, component tab
+ */
+
+
+
+.button-common {
+  background-color: #0f8ec5; /* Green background */
+  border: none; /* Remove borders */
+  color: #515151; /* White text */
+  padding: 5px 6px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the buttons appear side by side */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.button-common:hover {
+  background-color: #0a5f83; /* Darker green on hover */
+}

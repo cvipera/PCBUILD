@@ -1,0 +1,104 @@
+page
+Main
+    component
+        CPU
+        GPU
+        RAM
+        PSU
+        Cooler
+        Storage
+        Case
+        FAN
+
+    saved build
+    new build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CPU filter
+    core count
+    core clock
+    socket
+    TDP
+    integrated GPU
+    price
+    brand
+    series
+    model
+
+GPU filter
+    core count
+    core clock
+    memory
+    TDP
+    price
+    brand
+    series
+    model
+
+RAM filter
+    capacity
+    speed
+    latency
+    price
+    brand
+    series
+    model
+
+PSU filter
+    wattage
+    efficiency
+    modular
+    price
+    brand
+    model
+
+
+Cooler filter
+    TDP
+    noise
+    price
+    brand
+    model
+    AIO
+
+Storage filter
+    capacity
+    speed
+    price
+    brand
+    series
+    model
+    type
+
+
+Case filter
+    form factor
+    price
+    brand
+    series
+    model
+
+FAN filter
+    size
+    noise
+    price
+    brand
+    series
+    model
+    Led
