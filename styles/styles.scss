@@ -1,0 +1,9 @@
+@import "styles/styles.css";
+@import "hover.scss";
+
+.button-common {
+
+  @extend .hvr-border-fade;
+  @extend .hvr-sink;
+}
+
