@@ -1,5 +1,5 @@
-@import "styles/styles.css";
-@import "hover.scss";
+@import "./styles.css";
+@import "./hover.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
@@ -40,7 +40,10 @@ body{
   border-radius: 12px; /* Rounded corners */
   transition: background 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
 
-
+    &:hover {
+        background: linear-gradient( to right, #155b81 , #6591ac); /* Gradient background */
+        transform: scale(1.1); /* Scale up when hovered */
+    }
 
 
   &:active {

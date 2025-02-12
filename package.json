@@ -1,18 +1,30 @@
 {
-  "name": "pcbuild",
+  "name": "n2i",
   "version": "1.0.0",
-  "description": "",
-  "main": "CPU.js",
+  "description": "PC building Site",
+  "authors": [
+    "Vipera"
+  ],
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cvipera/PCBUILD.git"
+    "url": "git+https://github.com/cvipera/PCBUILD.git"
   },
-  "private": true,
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvipera/PCBUILD/issues"
+  },
+  "homepage": "https://github.com/cvipera/PCBUILD#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "sass": "^1.84.0"
+  },
   "devDependencies": {
-    "browser-sync": "^3.0.3",
-    "sass": "^1.43.4"
+    "@parcel/transformer-sass": "^2.12.0"
   }
 }
